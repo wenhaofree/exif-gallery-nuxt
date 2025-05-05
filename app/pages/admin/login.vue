@@ -13,9 +13,9 @@ if (loggedIn.value)
 <template>
   <div class="h-80dvh flex flex-col items-center justify-center gap-4 p-4">
     <LoginForm @logged-in="navigate()" />
-    <NuxtLinkLocale to="/admin/demo" class="text-sm op-50">
+    <!-- <NuxtLinkLocale to="/admin/demo" class="text-sm op-50">
       {{ $t('login_form.demo') }}
-    </NuxtLinkLocale>
+    </NuxtLinkLocale> -->
   </div>
 </template>
 

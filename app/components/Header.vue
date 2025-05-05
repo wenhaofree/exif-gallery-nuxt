@@ -48,9 +48,9 @@ async function clearSession() {
       </TooltipIconButton>
     </nav>
     <nav class="flex items-center">
-      <NuxtLinkLocale to="https://github.com/wiidede/exif-gallery-nuxt" target="_blank">
+      <!-- <NuxtLinkLocale to="https://github.com/wiidede/exif-gallery-nuxt" target="_blank">
         <TooltipIconButton :label="$t('header.github')" icon="i-lucide-github op-50" />
-      </NuxtLinkLocale>
+      </NuxtLinkLocale> -->
       <NuxtLinkLocale v-if="showAdmin" to="/admin">
         <TooltipIconButton :label="$t('header.admin')" icon="i-lucide-server-cog op-50" />
       </NuxtLinkLocale>
