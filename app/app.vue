@@ -27,6 +27,13 @@ useHead({
   link: [
     { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
   ],
+  script: [
+    {
+      defer: true,
+      src: 'https://umami.wenhaofree.com/script.js',
+      'data-website-id': '496e983e-5d21-45a6-a45f-e1a0f1da6967',
+    },
+  ],
   htmlAttrs: {
     lang: 'en',
   },
